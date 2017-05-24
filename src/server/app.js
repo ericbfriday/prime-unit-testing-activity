@@ -1,5 +1,4 @@
 var express = require('express');
-var bodyPaser = require('body-parser');
 var path = require('path');
 var app = express();
 
