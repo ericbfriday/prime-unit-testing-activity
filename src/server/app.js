@@ -1,8 +1,9 @@
 var express = require('express');
+var bodyPaser = require('body-parser');
 var path = require('path');
 var app = express();
 
-app.use(express.static('server/public'));
+app.use(express.static('src/server/public'));
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'public/views/index.html'));

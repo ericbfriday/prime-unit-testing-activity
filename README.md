@@ -6,10 +6,9 @@ This assignment will give you some code. It will ask you to write the tests for 
 
 ## Steps
 1. There are two modules `capitalize.js` and `evenOdd.js`. Take a look at these files. They should look familiar because they are the problems from your Monday night homework. The solutions might be foreign. Take a look at them and see if you can explain what they are doing.
-2. Using `mocha` and `chai` node packages, write unit tests for both these modules. Make sure to tests all the possible case. Try and break the code. If you write a test that breaks the code, feel free to update the code to make the tests pass.
-	- start with a broken test?? sending non numbers?
-	- asserting something incorrectly
-3. Write a API to used these modules and gets these tests to pass. 
+2. There are some tests written already. See if they are passing. If not, make them pass.
+3. Using `mocha` and `chai` node packages, write unit tests for both these modules. Make sure to tests all the possible cases. Try and break the code. If you write a test that breaks the code, feel free to update the code to make the tests pass.
+4. Write a API to use these modules.
 
 	```
 	GET to /oddEven/:num
@@ -20,7 +19,7 @@ This assignment will give you some code. It will ask you to write the tests for 
 	
 	with a body like {sentence: "capitalize this sentence!"}
 	```
-4. Write the server tests for these routes / the API. Using the `request` node package.
+5. Write the server tests for these routes / the API. Using the `request` node package.
 
 
 
